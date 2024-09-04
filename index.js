@@ -130,7 +130,7 @@ function startGame() {
     do {
         totalGames++;
         const difficulty = readline.question('Choose difficulty (easy/hard): ').toLowerCase();
-        const maxAttempts = difficulty === 'hard' ? 8 : 0;
+        const maxAttempts = difficulty === 'hard' ? 5 : 10;
 
         const attempts = playGame(playerName, maxAttempts, difficulty);
         gamesData.push({ game: totalGames, attempts });
