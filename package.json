@@ -1,0 +1,24 @@
+{
+  "name": "cowsandbulls-project",
+  "version": "1.0.0",
+  "description": "// Detais of project # Bulls and Cows",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balasreedurga/cowsandBulls-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balasreedurga/cowsandBulls-project/issues"
+  },
+  "homepage": "https://github.com/balasreedurga/cowsandBulls-project#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
